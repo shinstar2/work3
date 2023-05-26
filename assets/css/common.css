@@ -1,0 +1,22 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    margin: -1px;
+}
+
+
+.inner{width: 1200px;margin: 0 auto;}
+
+.header .logo a::after,
+.right-gnb .kr::after,
+.sc-content .next::before,
+.sc-content .prev::before,
+.sc-search .icon-box::after,
+.sc-support .link-support::after,
+.footer .relate::after,
+.footer .relate-item .site::after{
+    background-image: url(https://recruit.navercorp.com/share/tmplat/naver/img/sp_pc.png);
+    background-size: 328px 205px;
+}
